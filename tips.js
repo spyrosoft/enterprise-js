@@ -174,4 +174,12 @@ tips.push({
   ]
 });
 
+tips.push({
+  author: 'F1LT3R',
+  message: "Always add more comments, especially where they are most important.. between statements.",
+  example: [
+    'var myString = /* Setting of the string happens after this comment. */ "The string was set."; // The string was set before this comment."
+  ]
+});
+
 module.exports = tips;
