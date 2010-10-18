@@ -196,4 +196,23 @@ tips.push({
   ]
 });
 
+tips.push({
+    author: 'yonkeltron',
+    message: 'Namespace code into a "proper package structure" to make backend devs feel at home.',
+    example: [
+        'var com = {,',
+        '    AwesomeCo: {',
+        '        util: {',
+        '            info: function ( message) {',
+        '                alert(message);',
+        '                return message;',
+        '            }',
+        '        }',
+        '    }',
+        '};',
+        '',
+        'com.AwesomeCo.util.info("SRSLY!?");'
+    ]
+});
+
 module.exports = tips;
