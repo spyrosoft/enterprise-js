@@ -320,4 +320,19 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'dansnetwork',
+	message: 'maintaining a sufficient amount of preceding white space',
+	example: [
+		' ',
+		' ',
+		' // <- plenty of room for comments here',
+		' ',
+		' ',
+		' ',
+		' ',
+		'function highleveluncompressedcorporatestuff(){document.getElementById('anchortag').href="iheartie6.asp";}'
+	]
+});
+
 module.exports = tips;
