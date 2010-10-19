@@ -1,6 +1,24 @@
 var tips = [];
 
 tips.push({
+	author: 'restlessdesign',
+	message: 'Handle your exception handling',
+	example: [
+		'try {',
+		'   try {',
+		'      myArray.push(el);',
+		'   }',
+		'   catch(e) {',
+		'      alert(e.message)',
+		'   }',
+		'}',
+		'catch (e) {',
+		'   alert('Failed at trying');',
+		'}'
+	]
+});
+
+tips.push({
 	author: 'bentruyman',
 	message: 'Never Using Literals or <em>Lazy</em> Shorthand',
 	example: [
