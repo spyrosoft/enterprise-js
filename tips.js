@@ -215,4 +215,27 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'n1k0',
+	message: 'Use a modern, multipurpose, introspection aware, evented debugging and notification system.',
+	example: [
+		'alert(foo);'
+	]
+});
+
+tips.push({
+	author: 'n1k0',
+	message: 'Always name variables, objects, methods and every single piece of code in your mother language, in order to thwart any offshoring attempt and make the documentation actually scale.',
+	example: [
+		'var ModelisationDuProcessusDeFacturation = function() {',
+		'	var facturerTousLesUtilisateursOuiMaisLesquels = function(utilisateurs) {',
+		'		for (var utilisateur in utilisateurs) {',
+		'			var facture = new FacturationUtilisateur(utilisateur);',
+		'			facture.envoyerEtVerifierLesSous();',
+		'		}',
+		'	};',
+		'};'
+	]
+});
+
 module.exports = tips;
