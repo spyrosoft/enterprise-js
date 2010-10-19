@@ -1,24 +1,6 @@
 var tips = [];
 
 tips.push({
-	author: 'restlessdesign',
-	message: 'Handling your exception handling',
-	example: [
-		'try {',
-		'   try {',
-		'      myArray.push(el);',
-		'   }',
-		'   catch(e) {',
-		'      alert(e.message)',
-		'   }',
-		'}',
-		'catch (e) {',
-		'   alert('Failed at trying');',
-		'}'
-	]
-});
-
-tips.push({
 	author: 'bentruyman',
 	message: 'Never Using Literals or <em>Lazy</em> Shorthand',
 	example: [
@@ -317,6 +299,24 @@ tips.push({
 		'tblPets.style.width = tblShipperInfo.offsetWidth;',
 		'divFooter.style.top = tblPets.offsetTop + tblPets.offsetHeight + 20;',
 		'divFooter.style.left = tblPets.offsetLeft;'
+	]
+});
+
+tips.push({
+	author: 'restlessdesign',
+	message: 'Handling your exception handling',
+	example: [
+		'try {',
+		'   try {',
+		'      myArray.push(el);',
+		'   }',
+		'   catch(e) {',
+		'      alert(e.message)',
+		'   }',
+		'}',
+		'catch (e) {',
+		'   alert('Failed at trying');',
+		'}'
 	]
 });
 
