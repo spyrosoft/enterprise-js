@@ -240,7 +240,7 @@ tips.push({
 
 tips.push({
 	author: 'JakeWharton',
-	message: 'A fully dynamic layout management framework',
+	message: 'A fully <em>dynamic</em> layout management framework',
 	example: [
 		'divErrors.style.top = 105;',
 		'divErrors.style.left = 115;',
