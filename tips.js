@@ -322,7 +322,7 @@ tips.push({
 
 tips.push({
 	author: 'dansnetwork',
-	message: 'maintaining a sufficient amount of preceding white space',
+	message: '<em>Maintaining</em> a Sufficient Amount of Preceding White Space',
 	example: [
 		' ',
 		' ',
