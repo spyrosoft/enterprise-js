@@ -2,7 +2,7 @@ var tips = [];
 
 tips.push({
 	author: 'restlessdesign',
-	message: 'Handle your exception handling',
+	message: 'Handling your exception handling',
 	example: [
 		'try {',
 		'   try {',
