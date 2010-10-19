@@ -68,7 +68,7 @@ tips.push({
 
 tips.push({
 	author: 'rwaldron',
-	message: "Make sure you explicitly declare <em>EVERY VARIABLE</em> on it's own line, that way your team will know they are all variables",
+	message: "Make sure you explicitly declare <em>EVERY VARIABLE</em> on its own line, that way your team will know they are all variables",
 	example: [
 		'var li = "<li></li>";',
 		'var div = "<div>"+li+"</div>";',
@@ -124,7 +124,7 @@ tips.push({
 
 tips.push({
 	author: 'rwaldron',
-	message: "Put your commas at the beginning of the line, because thats what they do in someother <em>Enterprise</em> languages",
+	message: "Put your commas at the beginning of the line, because thats what they do in some other <em>Enterprise</em> languages",
 	example: [
 		'var CommaBomb = {', 
 		' defaults: "" ', 
