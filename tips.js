@@ -331,7 +331,7 @@ tips.push({
 		' ',
 		' ',
 		' ',
-		'function highleveluncompressedcorporatestuff(){document.getElementById('anchortag').href="iheartie6.asp";}'
+		'function highleveluncompressedcorporatestuff(){document.getElementById(\'anchortag\').href="iheartie6.asp";}'
 	]
 });
 
