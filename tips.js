@@ -315,7 +315,7 @@ tips.push({
 		'   }',
 		'}',
 		'catch (e) {',
-		'   alert('Failed at trying');',
+		'   alert(\'Failed at trying\');',
 		'}'
 	]
 });
