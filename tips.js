@@ -339,7 +339,7 @@ tips.push({
 	author: 'foobarfighter',
 	message: 'Computer cycles are cheaper than developer cycles: Include you favorite javascript framework to <em>maximize productivity</em> regardless of whats already included on the page.',
 	example: [
-    '$.fail()'
+	    '$.fail()'
   ]
 });
 
