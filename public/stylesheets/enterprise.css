@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata&subset=latin);
 
+:focus {
+	outline: none;
+}
+
 body, p {
 	margin: 0;
 }
@@ -26,6 +30,12 @@ em {
 	font-style: normal;
 }
 
+header,
+footer {
+	display: block;
+	height: 36px;
+}
+
 img {
 	border: 0;
 }
@@ -41,6 +51,19 @@ ul {
 
 .shadowed {
 	text-shadow: 3px 3px 0 #000;
+}
+
+.split {
+	display: inline-block;
+	float: left;
+}
+
+header .split {
+	width: 460px;
+}
+
+footer .split {
+	width: 440px;
 }
 
 .upper {
@@ -61,6 +84,32 @@ ul {
 	text-decoration: none;
 }
 
+#refresh {
+	text-align: right;
+}
+
+#refresh a {
+	background-image: -moz-linear-gradient(top, #eee, #aaa);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(1, #aaa));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #333;
+	display: inline-block;
+	padding: 6px 16px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+}
+
+#refresh a:hover {
+	color: #666;
+}
+
+#refresh a:active {
+	background-image: -moz-linear-gradient(top, #aaa, #eee);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #eee));
+}
+
 #message {
 	font-size: 82px;
 }
@@ -70,6 +119,7 @@ ul {
 	background-image: -moz-linear-gradient(top, #fff, #eee);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #eee));
 	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
 	border-radius: 20px;
 	-moz-box-shadow: 0px 0px 15px #000;
 	-webkit-box-shadow: 0px 0px 15px #000;
@@ -78,16 +128,6 @@ ul {
 	font-family: 'Inconsolata', courier, monospace;
 	overflow: auto;
 	padding: 20px;
-}
-
-footer {
-	height: 20px;
-}
-
-#author, #permalink {
-	display: inline-block;
-	float: left;
-	width: 440px;
 }
 
 #author {
