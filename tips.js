@@ -413,4 +413,16 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'bentruyman',
+	message: 'Prefixing Variable Names With an <em>Abbreviation</em> of Their Type',
+	example: [
+		'var strFoo = \'foo\'',
+		'var arrItems = [strFoo, \'bar\', \'baz\', \'qux\'];',
+		'var objNamespace = {',
+		'	items: arrItems',
+		'};'
+	]
+});
+
 module.exports = tips;
