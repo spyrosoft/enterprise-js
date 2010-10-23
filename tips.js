@@ -425,4 +425,19 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'rmehner',
+	message: 'Avoiding if / else under any circumstances',
+	example: [
+		'switch(true) {',
+		'	case element.hasClass(\'foo\'):',
+		'		foo();',
+		'		break;',
+		'	default:',
+		'		bar();',
+		'		break;',
+		'}'
+	]
+});
+
 module.exports = tips;
