@@ -337,7 +337,7 @@ tips.push({
 
 tips.push({
 	author: 'foobarfighter',
-	message: 'Computer cycles are cheaper than developer cycles: Include you favorite javascript framework to <em>maximize productivity</em> regardless of whats already included on the page.',
+	message: 'Computer cycles are cheaper than developer cycles: Include your favorite javascript framework to <em>maximize productivity</em> regardless of whats already included on the page.',
 	example: [
 		'$.fail()'
 	]
@@ -438,6 +438,14 @@ tips.push({
 		'		break;',
 		'}'
 	]
+});
+
+tips.push({
+  author: 'foobarfighter',
+  message: "<em>Generate</em> your Javascript with <em>Java</em>.  Your dynamic language is NOT enterprise.",
+  example: [
+    'import com.google.gwt.*;'
+  ]
 });
 
 module.exports = tips;
