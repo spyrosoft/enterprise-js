@@ -441,13 +441,15 @@ tips.push({
 });
 
 
+
 tips.push({
 	author: 'shazmo',
-	message: 'Use <em>contextual indentation</em>. That\'s what <em>FORTUNE 500</em> companies do.',
+	message: 'No more tabs. Use <em>contextual indentation</em>. That\'s what <em>FORTUNE 500</em> companies do.',
 	example: [
-		'$("#header").html("A Fortune 500 Company").show().click(function(){',
-        '                                                                 window.location="http://www.a-fortune-500-company.com/"',
-        '                                                                });',
+		'$("#header").html("A Fortune 500 Company").show("slow").click(function () ',
+		'                                                               {',
+        '                                                                window.location="http://www.a-fortune-500-company.com/"',
+        '                                                               });',
         'var isStandalone = checkIfStandalone();',
         '$("#modal").unbind("click").bind("click", function (e)',
         '                                           {',
@@ -461,18 +463,19 @@ tips.push({
         '                                              return false;',
         '                                             });',
         '$("#overlay").unbind("keydown").bind("keydown", function (e)',
-        '                             {',
-        '                              if(e.keyCode === 27)',
-        '                               {',
-        '                                var targetObj= $(e.target);',
-        '                                (isStandalone) ? close({',
-        '                                                        element: args.element',
-        '                                                       }) : close();',
-        '                                return false;',
-        '                               }',
-        '                             });'
+        '                                                 {',
+        '                                                  if(e.keyCode === 27)',
+        '                                                   {',
+        '                                                    var targetObj= $(e.target);',
+        '                                                    (isStandalone) ? close({',
+        '                                                                            element: args.element',
+        '                                                                           }) : close();',
+        '                                                    return false;',
+        '                                                  }',
+        '                                                 });'
 	]
 });
+
 
 
 module.exports = tips;
