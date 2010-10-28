@@ -493,4 +493,14 @@ tips.push({
 	example: ['']
 });
 
+tips.push({
+	author: 'cowboy',
+	message: 'Never, ever, EVER serializing <em>JSON</em> properly',
+	example: [
+		'function buildJSONObject( key, value ) {',
+		'	return "{\"" + key.replace(/"/g,"\\\"") + "\": \"" + value.replace(/"/g,"\\\"") + "\"}";',
+		'}'
+	]
+});
+
 module.exports = tips;
