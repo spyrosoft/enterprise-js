@@ -498,7 +498,7 @@ tips.push({
 	message: 'Never, ever, EVER serializing <em>JSON</em> properly',
 	example: [
 		'function buildJSONObject( key, value ) {',
-                '    return "{\\"" + key.replace(/"/g,"\\\\\\"") + "\\": \\"" + value.replace(/"/g,"\\\\\\"") + "\\"}";',
+        '    return "{\\"" + key.replace(/"/g,"\\\\\\"") + "\\": \\"" + value.replace(/"/g,"\\\\\\"") + "\\"}";',
 		'}'
 	]
 });
