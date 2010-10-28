@@ -514,4 +514,18 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'danheberden',
+	message: 'When in Doubt, Wrap It in a Triple Self-Executing Function',
+	example: [
+		'(function() {',
+		'	(function() {',
+		'		(function() {',
+		'			alert("Don\'t wanna pollute the global name space!");',
+		'		})();',
+		'	})();',
+		'})();'
+	]
+});
+
 module.exports = tips;
