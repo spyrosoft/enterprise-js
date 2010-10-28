@@ -477,7 +477,7 @@ tips.push({
 
 tips.push({
 	author: 'miketaylr',
-	message: 'Using agressive caching methods on your jQuery selectors',
+	message: 'Using <em>agressive</em> caching methods on your jQuery selectors',
 	example: [
 		'var listContainer = \'#list\'; //cached',
 		'',
