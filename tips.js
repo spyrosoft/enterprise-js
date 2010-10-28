@@ -503,4 +503,15 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'mathias',
+	message: 'Using <em>advanced</em> protection techniques to stop people from viewing the source code',
+	example: [
+		'window.oncontextmenu = function() {',
+		'	alert(\'Copyright © 1990 Initech - All Rights Reserved\');',
+		'	return false;',
+		'};'
+	]
+});
+
 module.exports = tips;
