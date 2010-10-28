@@ -475,4 +475,16 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'miketaylr',
+	message: 'Using agressive caching methods on your jQuery selectors',
+	example: [
+		'var listContainer = \'#list\'; //cached',
+		'',
+		'for (var i = 0; i < 9001; i++) {',
+		'	$(listContainer).append(\'<li>Product #\' + i + \'</li>\');',
+		'}'
+	]
+});
+
 module.exports = tips;
