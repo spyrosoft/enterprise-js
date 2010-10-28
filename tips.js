@@ -448,4 +448,14 @@ tips.push({
   ]
 });
 
+tips.push({
+	author: 'shazmo',
+	message: 'Use contextual indentation. That's what <em>FORTUNE 500</em> companies do.',
+	example: [
+		'$(#header).html("A Fortune 500 Company").show().click(function(){',
+                '                                                                 window.location="http://www.a-fortune-500-company.com/"',
+                '                                                                });'
+	]
+});
+
 module.exports = tips;
