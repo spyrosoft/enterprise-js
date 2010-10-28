@@ -442,7 +442,7 @@ tips.push({
 
 
 tips.push({
-	author: 'shazmo',
+	author: 'shazmoh',
 	message: 'No more tabs. Use <em>contextual indentation</em>. That\'s what <em>FORTUNE 500</em> companies do.',
 	example: [
 		'$("#header").html("A Fortune 500 Company").show("slow").click(function () ',
