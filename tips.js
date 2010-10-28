@@ -487,4 +487,10 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'bentruyman',
+	message: 'Utilizing vapor.js to Its <em>Fullest Extent</em>',
+	example: ['']
+});
+
 module.exports = tips;
