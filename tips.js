@@ -440,22 +440,39 @@ tips.push({
 	]
 });
 
-tips.push({
-  author: 'foobarfighter',
-  message: "<em>Generate</em> your Javascript with <em>Java</em>.  Your dynamic language is NOT enterprise.",
-  example: [
-    'import com.google.gwt.*;'
-  ]
-});
 
 tips.push({
 	author: 'shazmo',
 	message: 'Use <em>contextual indentation</em>. That\'s what <em>FORTUNE 500</em> companies do.',
 	example: [
-		'$(#header).html("A Fortune 500 Company").show().click(function(){',
-                '                                                                 window.location="http://www.a-fortune-500-company.com/"',
-                '                                                                });'
+		'$("#header").html("A Fortune 500 Company").show().click(function(){',
+        '                                                                 window.location="http://www.a-fortune-500-company.com/"',
+        '                                                                });',
+        'var isStandalone = checkIfStandalone();',
+        '$("#modal").unbind("click").bind("click", function (e)',
+        '                                           {',
+        '                                            if(getConfig().attachCloseEvent)',
+        '                                             {',
+        '                                               var targetObj= $(e.target);',
+        '                                                (isStandalone ? close({',
+        '                                                                       element: args.element',
+        '                                                                      }) : close();',
+        '                                              }',
+        '                                              return false;',
+        '                                             });',
+        '$("#overlay").unbind("keydown").bind("keydown", function (e)',
+        '                             {',
+        '                              if(e.keyCode === 27)',
+        '                               {',
+        '                                var targetObj= $(e.target);',
+        '                                (isStandalone) ? close({',
+        '                                                        element: args.element',
+        '                                                       }) : close();',
+        '                                return false;',
+        '                               }',
+        '                             });'
 	]
 });
+
 
 module.exports = tips;
