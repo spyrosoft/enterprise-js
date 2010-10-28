@@ -441,7 +441,6 @@ tips.push({
 });
 
 
-
 tips.push({
 	author: 'shazmo',
 	message: 'No more tabs. Use <em>contextual indentation</em>. That\'s what <em>FORTUNE 500</em> companies do.',
@@ -449,14 +448,14 @@ tips.push({
 		'$("#header").html("A Fortune 500 Company").show("slow").click(function () ',
 		'                                                               {',
 		'                                                                window.location="http://www.a-fortune-500-company.com/"',
-		'                                                                       });',
+		'                                                               });',
 		'var isStandalone = checkIfStandalone();',
 		'$("#modal").unbind("click").bind("click", function (e)',
 		'                                           {',
 		'                                            if(getConfig().attachCloseEvent)',
 		'                                             {',
 		'                                               var targetObj= $(e.target);',
-		'                                                (isStandalone ? close({',
+		'                                               (isStandalone ? close({',
 		'                                                                       element: args.element',
 		'                                                                      }) : close();',
 		'                                              }',
@@ -475,4 +474,5 @@ tips.push({
 		'                                                 });'
 	]
 });
+
 module.exports = tips;
