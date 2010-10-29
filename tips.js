@@ -528,4 +528,24 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'magcius',
+	message: 'Require a StringBuffer class to be used for all string operations',
+	example: [
+		'function StringBuffer() {',
+		'	this.strings = new Array([]);',
+		'}',
+		'StringBuffer.prototype.append = function(string) {',
+		'	this.strings.push(string);',
+		'	return this;',
+		'}',
+		'StringBuffer.prototype.toString = function() {',
+		'	return this.strings.join("");',
+		'}',
+		'var html = new StringBuffer();',
+		'html.append("<a id=\"navigation_").append(page).append("\" href=\"").append(page).append(".html\"</a>");',
+		'document.all["NavigationDiv"].innerHTML = html.toString();'
+	]
+});
+
 module.exports = tips;
