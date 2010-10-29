@@ -543,7 +543,7 @@ tips.push({
 		'	return this.strings.join("");',
 		'}',
 		'var html = new StringBuffer();',
-		'html.append("<a id=\"navigation_").append(page).append("\" href=\"").append(page).append(".html\"</a>");',
+		'html.append("<a id=\\"navigation_").append(page).append("\\" href=\\"").append(page).append(".html\\"</a>");',
 		'document.all["NavigationDiv"].innerHTML = html.toString();'
 	]
 });
