@@ -548,4 +548,15 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'OhaiBBQ',
+	message: 'Function calls are expensive, <em>always eval</em> a function's code',
+	example: [
+		'function alertHello() {',
+		'	alert("hello");',
+		'}',
+		'eval("(" + alertHello.toString() + ")()");'
+	]
+});
+
 module.exports = tips;
