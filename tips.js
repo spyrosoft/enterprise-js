@@ -58,4 +58,14 @@ tips.push({
 	]
 });
 
+tips.push({
+  author : 'rmurphey',
+  message : 'Making really sure something exists before you use it',
+  example : [
+    "if (foo && foo != null && foo.length && foo.length > 0) {",
+    " console.log('we have a winnar!');",
+    "}"
+  ]
+});
+
 module.exports = tips;
