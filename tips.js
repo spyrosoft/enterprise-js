@@ -560,13 +560,26 @@ tips.push({
 });
 
 tips.push({
-  author : 'rmurphey',
-  message : 'Making really sure something exists before you use it',
-  example : [
-    "if (foo && foo != null && foo.length && foo.length > 0) {",
-    " console.log('we have a winnar!');",
-    "}"
-  ]
+	author : 'rmurphey',
+	message : 'Making really sure something exists before you use it',
+	example : [
+		"if (foo && foo != null && foo.length && foo.length > 0) {",
+		" console.log('we have a winnar!');",
+		"}"
+	]
+});
+
+tips.push({
+	author : 'bentruyman',
+	message : '`break`ing even after you\'ve `return`ed',
+	example : [
+		'for (var i = 0; i < items.length; i++) {',
+		'	if (items[i] === \'polyfill\') {',
+		'		return items[i];',
+		'		break;',
+		'	}',
+		'}'
+	]
 });
 
 module.exports = tips;
