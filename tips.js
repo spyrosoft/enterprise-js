@@ -582,4 +582,12 @@ tips.push({
 	]
 });
 
+tips.push({
+	author : 'spyrosoft',
+	message : 'Use <em>Exclamation Marks</em> to Emphasize the <em>Truth</em> of a statement',
+	example : [
+		'var statement = !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!true;'
+	]
+});
+
 module.exports = tips;
